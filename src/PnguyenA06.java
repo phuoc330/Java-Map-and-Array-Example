@@ -1,6 +1,5 @@
 
 //Phuoc Nguyen
-//Pnguye11@fau.edu
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Comparator;
@@ -43,7 +42,7 @@ public class PnguyenA06 {
 			cleanword.toLowerCase();
 			wordlist.add(cleanword);
 		}
-		// replacing symbols with space made new words like ago—never to
+		// replacing symbols with space made new words like agoâ€”never to
 		// "ago never"; need to re do to split it again
 		StringBuilder strBuilderNtext = new StringBuilder();
 		// loop to transform arraylist to string builder
